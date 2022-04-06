@@ -9,7 +9,7 @@
 
 ### » TÓPICOS ESTUDADOS E CONSOLIDADOS:
 
-- Navegação customizada e utilizando o bosever;
+- Navegação customizada e utilizando o obsever;
 - Usando o await para aguardar o retorno de dados de uma página;
     
 
