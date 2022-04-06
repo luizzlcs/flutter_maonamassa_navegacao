@@ -3,7 +3,7 @@
 <p align="center"> Flutter ( Mão na massa).</p>
 
 <p align="center">
-<img width="620" height="200" src="images/logo.png"/>
+<img width="410" height="200" src="images/logo.png"/>
 </p>
 
 
