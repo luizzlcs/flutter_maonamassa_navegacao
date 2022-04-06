@@ -10,8 +10,10 @@ class Detalhe2Page extends StatelessWidget {
         title: const Text('Detalhe 2'),
       ),
       body: Center(
-        child: TextButton(
-          onPressed: () {},
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.of(context).pop('Pela Graça de Deus');
+          },
           child: const Text('Voltar'),
         ),
       ),

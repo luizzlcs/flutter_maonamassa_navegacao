@@ -41,13 +41,16 @@ class HomePage extends StatelessWidget {
               child: Text('Ir para detalhe PageRouter'),
             ),
             ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).push(
+              onPressed: () async {
+                print('Antes de navegar para página detalhe 2');
+                final retorno = await Navigator.of(context).push(
                   MaterialPageRoute(
                     settings: const RouteSettings(name: '/detalhe2'),
                     builder: (_) => const Detalhe2Page(),
                   ),
                 );
+                print('Navegou para página detalhe 2');
+                print('O retorno de detalhe 2 é: $retorno');
               },
               child: Text('Ir para detalhe 2'),
             ),
